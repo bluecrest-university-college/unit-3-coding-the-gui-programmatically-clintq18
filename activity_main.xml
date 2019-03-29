@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/durationID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="duration(months)"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <EditText
+        android:id="@+id/downpaymentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="down-payment"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <EditText
+        android:id="@+id/lease_rateID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="lease rate"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <EditText
+        android:id="@+id/car_valueID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="car value"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <TextView
+        android:id="@+id/titleID"
+        android:layout_width="341dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text=" Monhtly Car Lease Payment"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/Check_ResultsID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Results "
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="575dp" />
+</android.support.constraint.ConstraintLayout>
